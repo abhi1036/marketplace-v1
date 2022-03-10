@@ -1,6 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 const FONT_FAMILY = process.env.NEXT_PUBLIC_FONT_FAMILY || 'Inter'
+const DEAFAULT_STYLE= require('./styles/default.css')
 const BODY_FONT_FAMILY = process.env.NEXT_PUBLIC_BODY_FONT_FAMILY || 'Inter'
 const MONO_FONT_FAMILY =
   process.env.NEXT_PUBLIC_BODY_FONT_FAMILY || 'ui-monospace'
